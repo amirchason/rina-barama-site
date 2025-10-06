@@ -1,0 +1,30 @@
+{
+  "name": "rina-barama-site",
+  "version": "1.0.0",
+  "description": "Modern website for Rina Barama Cabins in Golan Heights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.7.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "autoprefixer": "^10.4.17",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "framer-motion": "^12.23.22",
+    "next": "^15.5.4",
+    "postcss": "^8.4.35",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9.3"
+  }
+}
