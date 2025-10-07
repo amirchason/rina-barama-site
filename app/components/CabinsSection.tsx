@@ -13,10 +13,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8669.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/137-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/144-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/129-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/113-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/115-Big-1.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/116-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/117-Big.jpg'
     ],
   },
   {
@@ -27,10 +27,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8708.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/155-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/DSC_8819.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/62-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/120-Big-1.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/123-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/129-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/130-Big.jpg'
     ],
   },
   {
@@ -41,10 +41,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8352.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/148-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/131-Big.jpg',
       'https://www.rinabarama.co.il/wp-content/uploads/2018/01/132-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/130-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/137-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/142-Big.jpg'
     ],
   },
   {
@@ -55,10 +55,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8392.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/88-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/78-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/76-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/144-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/147-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/148-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/152-Big.jpg'
     ],
   },
   {
@@ -69,10 +69,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8806.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/73-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/70-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/63-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/155-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/158-Big-1.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/159-Big-1.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/59-Big.jpg'
     ],
   },
   {
@@ -83,10 +83,10 @@ const cabins = [
     guests: '2-4 אורחים',
     amenities: ['ג\'קוזי זוגי', 'מטבחון (מקרר, מיקרוגל)', 'טלוויזיה לווין', 'WiFi', 'מזגן', 'מרפסת פרטית'],
     images: [
-      'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8813-1.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/61-Big.jpg',
       'https://www.rinabarama.co.il/wp-content/uploads/2018/01/60-Big.jpg',
-      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/91-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/61-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/62-Big.jpg',
+      'https://www.rinabarama.co.il/wp-content/uploads/2018/01/63-Big.jpg'
     ],
   },
 ]

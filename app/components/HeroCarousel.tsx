@@ -8,22 +8,22 @@ import Image from 'next/image'
 
 const heroSlides = [
   {
-    image: 'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8806.jpg',
+    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/148-Big.jpg',
     title: 'בקתות רינה ברמה',
-    subtitle: 'חווית נופש יוקרתית ברמת הגולן',
+    subtitle: 'חווית נופש יוקרתית ורומנטית ברמת הגולן',
   },
   {
-    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/148-Big.jpg',
-    title: 'בקתות עץ רומנטיות',
+    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/131-Big.jpg',
+    title: 'בקתות עץ מפוארות',
     subtitle: '6 בקתות מרווחות עם ג\'קוזי זוגי',
   },
   {
-    image: 'https://www.rinabarama.co.il/wp-content/uploads/2017/11/DSC_8708.jpg',
+    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/137-Big.jpg',
     title: 'נוף פנורמי מרהיב',
     subtitle: 'מוקפים עצים וצמחייה מטופחת',
   },
   {
-    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/131-Big.jpg',
+    image: 'https://www.rinabarama.co.il/wp-content/uploads/2018/01/110-Big.jpg',
     title: 'מיקום מושלם',
     subtitle: '10 דקות מהכנרת • 15 דקות מחמת גדר',
   },
