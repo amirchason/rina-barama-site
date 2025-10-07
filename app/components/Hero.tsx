@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://www.rinabarama.co.il/wp-content/uploads/2018/01/148-Big.jpg"
+          src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=1920&q=80"
           alt="בקתות רינה ברמה - בקתות עץ רומנטיות ברמת הגולן"
           fill
           className="object-cover object-center"
