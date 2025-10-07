@@ -4,7 +4,7 @@ export interface BlogPost {
   slug: string
   excerpt: string
   content: string
-  category: 'attractions' | 'restaurants' | 'hiking' | 'tips' | 'seasonal'
+  category: 'attractions' | 'restaurants' | 'hiking' | 'tips' | 'seasonal' | 'accommodation' | 'food' | 'guides'
   image: string
   author: string
   date: string
@@ -776,4 +776,9 @@ export const blogPosts: BlogPost[] = [
     seoKeywords: ['טיול משפחתי בגולן', 'חופשה משפחתית', 'אטרקציות לילדים', 'בקתות למשפחות'],
   },
 ]
-// continuing with more blog posts...
+
+// Import additional blog posts
+import { additionalBlogPosts } from './additionalBlogPosts'
+
+// Merge all blog posts for use throughout the site
+export const allBlogPosts = [...blogPosts, ...additionalBlogPosts]
