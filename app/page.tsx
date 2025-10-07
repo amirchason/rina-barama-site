@@ -1,5 +1,5 @@
 import Header from './components/Header'
-import HeroCarousel from './components/HeroCarousel'
+import Hero from './components/Hero'
 import CabinsSection from './components/CabinsSection'
 import AttractionsSection from './components/AttractionsSection'
 import RestaurantsSection from './components/RestaurantsSection'
@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen">
       <Header />
-      <HeroCarousel />
+      <Hero />
       <CabinsSection />
       <AttractionsSection />
       <RestaurantsSection />

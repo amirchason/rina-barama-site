@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from './data/blogPosts'
+import { allBlogPosts } from './data/blogPosts'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.rinabarama.co.il'
@@ -20,8 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]
 
-  // Blog posts
-  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
+  // Blog posts (all 16 posts)
+  const blogPages: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'monthly' as const,

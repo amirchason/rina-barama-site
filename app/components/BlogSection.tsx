@@ -2,10 +2,10 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { blogPosts } from '../data/blogPosts'
+import { allBlogPosts } from '../data/blogPosts'
 
 export default function BlogSection() {
-  const featuredPosts = blogPosts.slice(0, 3)
+  const featuredPosts = allBlogPosts.slice(0, 3)
 
   return (
     <section id="blog" className="section-padding bg-gradient-to-b from-white to-wood-50">
@@ -46,6 +46,9 @@ export default function BlogSection() {
                   {post.category === 'tips' && '💡 טיפים'}
                   {post.category === 'attractions' && '🎯 אטרקציות'}
                   {post.category === 'seasonal' && '🌸 עונתי'}
+                  {post.category === 'accommodation' && '🏡 לינה'}
+                  {post.category === 'food' && '🍴 אוכל'}
+                  {post.category === 'guides' && '📚 מדריכים'}
                 </div>
               </div>
 
@@ -94,7 +97,7 @@ export default function BlogSection() {
           viewport={{ once: true }}
         >
           <a href="/blog" className="btn-secondary">
-            צפו בכל המאמרים (30+)
+            צפו בכל המאמרים ({allBlogPosts.length})
           </a>
         </motion.div>
       </div>

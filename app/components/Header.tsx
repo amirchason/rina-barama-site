@@ -16,12 +16,12 @@ export default function Header() {
   }, [])
 
   const navItems = [
-    { name: 'בית', href: '#' },
-    { name: 'הבקתות', href: '#cabins' },
-    { name: 'אטרקציות באזור', href: '#attractions' },
-    { name: 'מסעדות מומלצות', href: '#restaurants' },
-    { name: 'בלוג', href: '#blog' },
-    { name: 'צור קשר', href: '#contact' },
+    { name: 'בית', href: '/' },
+    { name: 'הבקתות', href: '/#cabins' },
+    { name: 'אטרקציות באזור', href: '/#attractions' },
+    { name: 'מסעדות מומלצות', href: '/#restaurants' },
+    { name: 'בלוג', href: '/blog' },
+    { name: 'צור קשר', href: '/#contact' },
   ]
 
   return (
@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <motion.a
-            href="#"
+            href="/"
             className={`text-2xl font-display font-bold ${
               isScrolled ? 'text-primary-600' : 'text-white text-shadow'
             }`}
